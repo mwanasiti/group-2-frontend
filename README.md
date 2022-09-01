@@ -1,1 +1,1 @@
-# group-2-frontend
+# Group 2 project
