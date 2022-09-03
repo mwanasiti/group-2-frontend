@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const Header = () => {
+function Header() {
   return (
-    <div>
-      <p>Header</p>
-    </div>
-  )
+      <header className='App-header'>
+        <div>
+      <h1 className="heading">SMART STUDENT</h1>
+      </div>
+      </header>
+  );
 }
 
-export default Header
+export default Header;
