@@ -1,17 +1,15 @@
 import './App.css';
-import HomePage from './pages/HomePage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
+import Display from './components/Display';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <div className="RouteSection">
-        <Header />
-        <Routes>
-          <Route exact='true' path='/' element={<HomePage />}/>
-        </Routes>
+        
+        <Display/>
+        
       </div>
       </BrowserRouter>
     </div>
