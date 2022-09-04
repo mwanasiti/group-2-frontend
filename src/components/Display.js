@@ -3,23 +3,24 @@ import "./Display.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {useState} from "react";
+import userEvent from "@testing-library/user-event";
 
 
 
-function Display ({name, student_id, cohort}){
-    const [formData, setFormData] = useState({
-        name:'',
-        student_id:'',
-        cohort:'',
+function Display ({name, id}){
+    // const [formData, setFormData] = useState({
+    //     name:'',
+    //     student_id:'',
+    //     cohort:'',
         
-      });
+    //   });
     return (
         <div className="Display">
             <form>
                 <div className="details">
                 <section>
-                    <h3>Name:</h3>
-                    <h3>Student_Id:</h3>
+                    <h3>Name:{name}</h3>
+                    <h3>Student_Id:{id}</h3>
                     <h3>Cohort:</h3>
                     
                 </section>

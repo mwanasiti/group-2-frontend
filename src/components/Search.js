@@ -1,8 +1,11 @@
 import React from 'react'
 
-function Search() {
+function Search({handleChange}) {
+    
   return (
-    <div>Search</div>
+    <div>
+        <input placeholder='Search'  onChange={handleChange}/>
+    </div>
   )
 }
 
