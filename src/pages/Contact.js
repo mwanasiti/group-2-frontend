@@ -19,7 +19,7 @@ const Contact = () => {
             </div>
             <div class="information">
               {/* <img class="icon" alt="" /> how do i import icons? */}
-              <p>smartstudent@gmail.com</p>
+              <p>smart234Student@gmail.com</p>
             </div>
             <div class="information">
               {/* <img src="img/phone.png" class="icon" alt="" />{" "} */}
