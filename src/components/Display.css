@@ -1,0 +1,35 @@
+*{
+    font-family: inter;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    align-items: Center;
+    vertical-align: top;
+}
+
+/* .buttons{
+    padding: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items: baseline;
+}
+
+form{
+    margin: 15%;
+    width: 550px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.btn3{
+    color: bisque;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 10px;
+} */

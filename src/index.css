@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgba(30, 165, 255, 0) linear-gradient(45deg, #d3d3d3, #BCC6CC, #98AFC7) fixed;
+  /* background: rgba(30, 165, 255, 0) linear-gradient(45deg, #d3d3d3, #BCC6CC, #98AFC7) fixed; */
+  background-color: black;
 }
 
 
@@ -62,4 +63,8 @@ body {
   color: #fff;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
 }
+
+
+
+
 
