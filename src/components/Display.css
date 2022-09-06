@@ -6,7 +6,9 @@
     align-items: Center;
     vertical-align: top;
 }
-
+.Display{
+    color: #000;
+}
 /* .buttons{
     padding: 100px;
     justify-content: space-around;

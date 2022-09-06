@@ -51,16 +51,16 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       </Routes>
-        <Routes>
+        {/* <Routes>
           <Route exact='true' path='/' element={<HomePage />}/>
-        </Routes>
+        </Routes> */}
         <Search handleChange = {handleChange}/>
         {/* <Display/> */}
 
         {users && users.filter((user)=>user.name.includes(search)).map((user)=>
           (
             <>
-            <Display name = {user.name} id ={user.id}/>
+            <Display name = {user.name} id ={user.id} course_id={user.course_id}/>
             </>
           )
         )}

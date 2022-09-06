@@ -15,18 +15,35 @@ function Display ({name, id, course_id}){
         
     //   });
     return (
-  <div class="card-body">
-    <blockquote class="blockquote mb-0"></blockquote>
+        <>
+        
+        <div className="Display">
             <form>
-                <div className="details">
+            <div class="card">
+            <div class="card-body">
+            <div className="details">
                 <section>
                     <h3>Name:{name}</h3>
                     <h3>Student_Id:{id}</h3>
                     <h3>Course:{course_id}</h3>
                     
                 </section>
+                </div>
+                <div className="buttons">
+                <Button>Post Student</Button>
+                <Button>Edit Student</Button>
+                <Button>Delete Student</Button>
+                </div>
+    
+    
+  </div>
+</div>
+                {/* <div className="details">
                 <section>
-                <img src="https://image.shutterstock.com/image-photo/ugali-stew-260nw-784234852.jpg" alt="img" height="100px"/>
+                    <h3>Name:{name}</h3>
+                    <h3>Student_Id:{id}</h3>
+                    <h3>Course:{course_id}</h3>
+                    
                 </section>
                 </div>
                 
@@ -37,11 +54,12 @@ function Display ({name, id, course_id}){
                 <Button>Edit Student</Button>
                 <Button>Delete Student</Button>
                 </div>
-        
+         */}
             </form>
             
 
         </div>
+        </>
     )
 }
 
