@@ -47,20 +47,23 @@ function App() {
         
         <Header />
         <Navbar/>
+        <Search handleChange = {handleChange}/>
         <Routes>
+        {/* <Route path='/' element={<Display/>}/> */}
+
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
       </Routes>
         {/* <Routes>
           <Route exact='true' path='/' element={<HomePage />}/>
         </Routes> */}
-        <Search handleChange = {handleChange}/>
+        
         {/* <Display/> */}
 
         {users && users.filter((user)=>user.name.includes(search)).map((user)=>
           (
             <>
-            <Display name = {user.name} id ={user.id} course_id={user.course_id}/>
+            <Display name = {user.name} id ={user.id} course_id={user.course_id} lecturer_id={user.lecturer_id}/>
             </>
           )
         )}

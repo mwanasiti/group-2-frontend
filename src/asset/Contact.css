@@ -19,6 +19,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 .form {
   width: 100%;
@@ -129,23 +130,7 @@ textarea.input {
   top: 50%;
   transform: translateY(-50%);
 }
-.input-container span:before {
-  left: 50%;
-}
-.input-container span:after {
-  right: 50%;
-}
-.input-container.focus label {
-  top: 0;
-  transform: translateY(-50%);
-  left: 25px;
-  font-size: 0.8rem;
-}
-.input-container.focus span:before,
-.input-container.focus span:after {
-  width: 50%;
-  opacity: 1;
-}
+
 .contact-info {
   padding: 2.3rem 2.2rem;
   position: relative;

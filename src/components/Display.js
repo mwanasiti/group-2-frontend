@@ -7,13 +7,18 @@ import userEvent from "@testing-library/user-event";
 
 
 
-function Display ({name, id, course_id}){
-    // const [formData, setFormData] = useState({
-    //     name:'',
-    //     student_id:'',
-    //     cohort:'',
-        
-    //   });
+function Display ({name, id, course_id, lecturer_id}){
+  
+    // const StudentTableRow = ({ onDelete}) => {
+    // const { name, student_id, course } = student;
+
+    // const deleteStudent = () => {	
+    //     fetch(`https://kimeu-api.herokuapp.com/students/${id}`,{		
+    //     method: "DELETE",	})	
+    //     .then(res => res.json())	
+    //     .then(() => {		
+    //     onDelete(id)		
+    //     alert("Student successfully deleted!")	})}
     return (
         <>
         
@@ -26,14 +31,16 @@ function Display ({name, id, course_id}){
                     <h3>Name:{name}</h3>
                     <h3>Student_Id:{id}</h3>
                     <h3>Course:{course_id}</h3>
+                    <h3>Lecturer:{lecturer_id}</h3>
                     
                 </section>
                 </div>
                 <div className="buttons">
                 <Button>Post Student</Button>
                 <Button>Edit Student</Button>
-                <Button>Delete Student</Button>
+                <Button >Delete Student</Button>
                 </div>
+
     
     
   </div>
@@ -62,5 +69,6 @@ function Display ({name, id, course_id}){
         </>
     )
 }
+
 
 export default Display;

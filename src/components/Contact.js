@@ -9,19 +9,18 @@ const Contact = () => {
           <p class="text">Let's get in touch</p>
           <div class="info">
             <div class="information">
-              {/* <img src="img/location.png" class="icon" alt="" />{" "} */}
+            
               <a href="//#">
                 <i class="fab fa-street"></i>
               </a>
-              <p> Tom Mboya St, Nairobi</p>
+              <p> Moringa street</p>
             </div>
             <div class="information">
-              {/* <img class="icon" alt="" /> how do i import icons? */}
+              
               <p>smart234Student@gmail.com</p>
             </div>
             <div class="information">
-              {/* <img src="img/phone.png" class="icon" alt="" />{" "} */}
-              {/* how do i import icons? */}
+            
               <p>+254 798675289</p>
             </div>
           </div>
